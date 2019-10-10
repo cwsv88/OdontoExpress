@@ -1,0 +1,89 @@
+@CHARSET "ISO-8859-1";
+
+body,html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: #fafafa;
+	overflow: hidden;
+}
+
+#preloader {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #fff url('../images/pre1.gif') no-repeat center center;
+	position: absolute;
+	z-index: 999;
+}
+
+#preloader2 {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #fff url('../images/load.gif') no-repeat center center;
+	position: absolute;
+	z-index: 999;
+}
+
+.lsaTitle {
+	font-weight: bold;
+	font-size: 22px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.grupolsaTitle {
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-top: 1px solid #366dba;
+	width: 200px;
+}
+
+.subtitle {
+	background-color: #E6E6E7;
+	background-image:
+		url('../js/dojo-1.5.0/dijit/themes/claro/images/titlebar.png');
+	background-repeat: repeat-x;
+	border: 1px solid #B5BCC7;
+	color: #131313;
+	min-height: 17px;
+	padding: 0px 7px 3px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.subtitle1 {
+	background-image:
+		url('../js/dojo-1.5.0/dijit/themes/claro/images/titlebar.png');
+	background-repeat: repeat-x;
+	border: 1px solid #B5BCC7;
+	color: #131313;
+	min-height: 17px;
+	padding: 0px 7px 3px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+.dojoxGrid table {
+	margin: 0;
+}
+.subtitle {
+	background-color: #E6E6E7;
+	background-image:
+		url('../js/dojo-1.5.0/dijit/themes/claro/images/titlebar.png');
+	background-repeat: repeat-x;
+	border: 1px solid #B5BCC7;
+	color: #131313;
+	min-height: 17px;
+	padding: 0px 7px 3px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
